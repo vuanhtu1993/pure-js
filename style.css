@@ -1,0 +1,22 @@
+.header {
+    background-color: #f05123;
+}
+
+.examples {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.examples-item {
+    outline: 2px solid #dea494;
+    height: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.examples-item:hover {
+    cursor: pointer;
+    outline: 2px solid #eb3c0c;
+}

@@ -1,0 +1,41 @@
+body {
+  background: #f1f1f1;
+}
+
+.tasker {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.tasker ul {
+  background: #fff;
+}
+
+.tasker-header {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #e48970;
+}
+.tasker-header input,
+.tasker-header button {
+  box-sizing: border-box;
+  font-size: 1.25em;
+  padding: 14px;
+}
+.tasker-header input {
+  flex-grow: 2;
+}
+
+.tasker-header button {
+  background: #f05123;
+}
+
+.tasks{
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+.tasks li {
+    padding: 10px;
+}

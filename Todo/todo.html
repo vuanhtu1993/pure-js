@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure javascript</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./todo.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="/images/logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="content container">
+      <div id="tasker" class="tasker">
+        <div id="error" class="error">Please enter a task</div>
+        <div id="tasker-header" class="tasker-header">
+          <input type="text" id="input-task" placeholder="Enter a task" />
+          <button id="add-task-btn" onclick="addTask()">ADD</button>
+        </div>
+        <div class="tasker-body">
+          <ul class="tasks" id="tasks">
+            <li>ABC 1234</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/services.js"></script>
+  <script src="./todo.js"></script>
+</html>
